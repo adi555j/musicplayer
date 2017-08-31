@@ -1,0 +1,15 @@
+D:\users\adi\documents\visual studio 2015\Projects\lyrics_viewer\lyrics_viewer\bin\Release\lyrics_viewer.exe.config
+D:\users\adi\documents\visual studio 2015\Projects\lyrics_viewer\lyrics_viewer\obj\Release\Interop.WMPLib.dll
+D:\users\adi\documents\visual studio 2015\Projects\lyrics_viewer\lyrics_viewer\obj\Release\lyrics_viewer.csproj.ResolveComReference.cache
+D:\users\adi\documents\visual studio 2015\Projects\lyrics_viewer\lyrics_viewer\bin\Release\lyrics_viewer.exe.manifest
+D:\users\adi\documents\visual studio 2015\Projects\lyrics_viewer\lyrics_viewer\bin\Release\lyrics_viewer.application
+D:\users\adi\documents\visual studio 2015\Projects\lyrics_viewer\lyrics_viewer\bin\Release\lyrics_viewer.exe
+D:\users\adi\documents\visual studio 2015\Projects\lyrics_viewer\lyrics_viewer\bin\Release\lyrics_viewer.pdb
+D:\users\adi\documents\visual studio 2015\Projects\lyrics_viewer\lyrics_viewer\obj\Release\lyrics_viewer.csprojResolveAssemblyReference.cache
+D:\users\adi\documents\visual studio 2015\Projects\lyrics_viewer\lyrics_viewer\obj\Release\lyrics_viewer.Form1.resources
+D:\users\adi\documents\visual studio 2015\Projects\lyrics_viewer\lyrics_viewer\obj\Release\lyrics_viewer.Properties.Resources.resources
+D:\users\adi\documents\visual studio 2015\Projects\lyrics_viewer\lyrics_viewer\obj\Release\lyrics_viewer.csproj.GenerateResource.Cache
+D:\users\adi\documents\visual studio 2015\Projects\lyrics_viewer\lyrics_viewer\obj\Release\lyrics_viewer.exe.manifest
+D:\users\adi\documents\visual studio 2015\Projects\lyrics_viewer\lyrics_viewer\obj\Release\lyrics_viewer.application
+D:\users\adi\documents\visual studio 2015\Projects\lyrics_viewer\lyrics_viewer\obj\Release\lyrics_viewer.exe
+D:\users\adi\documents\visual studio 2015\Projects\lyrics_viewer\lyrics_viewer\obj\Release\lyrics_viewer.pdb
