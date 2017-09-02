@@ -34,6 +34,8 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.play = new System.Windows.Forms.Button();
+            this.Choosepath = new System.Windows.Forms.Button();
+            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.SuspendLayout();
             // 
             // back
@@ -96,14 +98,29 @@
             this.play.UseVisualStyleBackColor = true;
             this.play.Click += new System.EventHandler(this.button1_Click);
             // 
+            // Choosepath
+            // 
+            this.Choosepath.Location = new System.Drawing.Point(254, 362);
+            this.Choosepath.Name = "Choosepath";
+            this.Choosepath.Size = new System.Drawing.Size(150, 30);
+            this.Choosepath.TabIndex = 8;
+            this.Choosepath.Text = "Choose path";
+            this.Choosepath.UseVisualStyleBackColor = true;
+            this.Choosepath.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // folderBrowserDialog1
+            // 
+            this.folderBrowserDialog1.HelpRequest += new System.EventHandler(this.folderBrowserDialog1_HelpRequest);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(416, 397);
-            this.Controls.Add(this.play);
+            this.ClientSize = new System.Drawing.Size(416, 404);
+            this.Controls.Add(this.Choosepath);
             this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.play);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.forward);
             this.Controls.Add(this.pause);
@@ -122,6 +139,8 @@
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button play;
+        private System.Windows.Forms.Button Choosepath;
+        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
     }
 }
 

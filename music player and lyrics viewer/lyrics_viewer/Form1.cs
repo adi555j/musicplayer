@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Media;
+using System.Text.RegularExpressions;
 
 namespace lyrics_viewer
 {
@@ -16,13 +17,15 @@ namespace lyrics_viewer
     {
 
         //////////////////////////////////////////////////////////
-        string dir = @"D:\musik\Music\";
         WMPLib.WindowsMediaPlayer wplayer = new WMPLib.WindowsMediaPlayer();
         List<string> mp3 = new List<string>();
         double time = -1;
         bool pauseflag = false;
 
+        public bool ended = false;
+
         public int listSize { get; private set; }
+        public string dir { get; private set; }
 
         public void addValues()
         {
@@ -44,7 +47,6 @@ namespace lyrics_viewer
         public Form1()
         {
             InitializeComponent();
-            addValues();
         }
 
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
@@ -63,7 +65,7 @@ namespace lyrics_viewer
 
         private void forward_Click(object sender, EventArgs e)
         {
-            if(listBox1.SelectedIndex >= listSize)
+            if(listBox1.SelectedIndex >= (listSize - 1))
             {
                 listBox1.SelectedIndex = 0;
             }
@@ -82,7 +84,6 @@ namespace lyrics_viewer
             else
             {
                 listBox1.SelectedIndex = listSize - 1;
-                textBox1.Text = listSize.ToString();
             }          
         }
 
@@ -131,6 +132,30 @@ namespace lyrics_viewer
                 pauseflag = false;
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if(textBox1.Text == "")
+            {
+                folderBrowserDialog1.ShowDialog();
+                dir = folderBrowserDialog1.SelectedPath;
+                if (dir[dir.Length - 1] != '\\')
+                {
+                    dir = dir + "\\";
+                }
+            }
+            else
+            {
+                dir = textBox1.Text;
+            }
+            addValues();
+        }
+
+        private void folderBrowserDialog1_HelpRequest(object sender, EventArgs e)
+        {
+            textBox1.Text = folderBrowserDialog1.SelectedPath;
+        }
+
     }
 }
 
