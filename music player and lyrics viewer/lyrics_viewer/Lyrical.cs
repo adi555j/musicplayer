@@ -116,6 +116,7 @@ namespace lyrics_viewer
 
         private void listBox1_DoubleClick(object sender, EventArgs e)
         {
+
             wplayer.URL = dir + mp3[listBox1.SelectedIndex];
             textBox1.Text = wplayer.URL;
             wplayer.controls.stop();
@@ -124,14 +125,22 @@ namespace lyrics_viewer
             textBox1.Text = wplayer.URL;
             wplayer.controls.play();
             //pause_play_click_status = true;
+
+            string af = dir + mp3[listBox1.SelectedIndex];
+            var file = TagLib.File.Create(@af);
+            string ly = Lyrics.Lyric(file.Tag.AlbumArtists.First(), file.Tag.Title);
+            richTextBox1.Clear();
+            richTextBox1.AppendText(ly);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             if (listBox1.Items.Count == 0)
                 return;
-            var file = TagLib.File.Create(@"C:\Users\Public\Music\Sample Music\Kalimba.mp3");
+            string af=dir + mp3[listBox1.SelectedIndex];
+            var file = TagLib.File.Create(@af);
             string ly = Lyrics.Lyric(file.Tag.AlbumArtists.First(),file.Tag.Title);
+            richTextBox1.Clear();
             richTextBox1.AppendText(ly);
 
             if (pauseflag == false)
