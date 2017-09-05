@@ -13,3 +13,21 @@ D:\users\adi\documents\visual studio 2015\Projects\lyrics_viewer\lyrics_viewer\b
 D:\users\adi\documents\visual studio 2015\Projects\lyrics_viewer\lyrics_viewer\bin\Debug\lyrics_viewer.application
 D:\users\adi\documents\visual studio 2015\Projects\lyrics_viewer\lyrics_viewer\obj\Debug\lyrics_viewer.exe.manifest
 D:\users\adi\documents\visual studio 2015\Projects\lyrics_viewer\lyrics_viewer\obj\Debug\lyrics_viewer.application
+\\MGPCTFSW01\UserFolders$\t967031\Desktop\musicplayer-master\music player and lyrics viewer\lyrics_viewer\bin\Debug\lyrics_viewer.exe.config
+\\MGPCTFSW01\UserFolders$\t967031\Desktop\musicplayer-master\music player and lyrics viewer\lyrics_viewer\obj\Debug\Interop.WMPLib.dll
+\\MGPCTFSW01\UserFolders$\t967031\Desktop\musicplayer-master\music player and lyrics viewer\lyrics_viewer\obj\Debug\lyrics_viewer.csproj.ResolveComReference.cache
+\\MGPCTFSW01\UserFolders$\t967031\Desktop\musicplayer-master\music player and lyrics viewer\lyrics_viewer\obj\Debug\lyrics_viewer.exe
+\\MGPCTFSW01\UserFolders$\t967031\Desktop\musicplayer-master\music player and lyrics viewer\lyrics_viewer\obj\Debug\lyrics_viewer.pdb
+\\MGPCTFSW01\UserFolders$\t967031\Desktop\musicplayer-master\music player and lyrics viewer\lyrics_viewer\bin\Debug\lyrics_viewer.exe.manifest
+\\MGPCTFSW01\UserFolders$\t967031\Desktop\musicplayer-master\music player and lyrics viewer\lyrics_viewer\bin\Debug\lyrics_viewer.application
+\\MGPCTFSW01\UserFolders$\t967031\Desktop\musicplayer-master\music player and lyrics viewer\lyrics_viewer\bin\Debug\lyrics_viewer.exe
+\\MGPCTFSW01\UserFolders$\t967031\Desktop\musicplayer-master\music player and lyrics viewer\lyrics_viewer\bin\Debug\lyrics_viewer.pdb
+\\MGPCTFSW01\UserFolders$\t967031\Desktop\musicplayer-master\music player and lyrics viewer\lyrics_viewer\obj\Debug\lyrics_viewer.csprojResolveAssemblyReference.cache
+\\MGPCTFSW01\UserFolders$\t967031\Desktop\musicplayer-master\music player and lyrics viewer\lyrics_viewer\obj\Debug\lyrics_viewer.Properties.Resources.resources
+\\MGPCTFSW01\UserFolders$\t967031\Desktop\musicplayer-master\music player and lyrics viewer\lyrics_viewer\obj\Debug\lyrics_viewer.csproj.GenerateResource.Cache
+\\MGPCTFSW01\UserFolders$\t967031\Desktop\musicplayer-master\music player and lyrics viewer\lyrics_viewer\obj\Debug\lyrics_viewer.exe.manifest
+\\MGPCTFSW01\UserFolders$\t967031\Desktop\musicplayer-master\music player and lyrics viewer\lyrics_viewer\obj\Debug\lyrics_viewer.application
+\\MGPCTFSW01\UserFolders$\t967031\Desktop\musicplayer-master\music player and lyrics viewer\lyrics_viewer\obj\Debug\lyrics_viewer.Lyrical.resources
+\\MGPCTFSW01\UserFolders$\t967031\Desktop\musicplayer-master\music player and lyrics viewer\lyrics_viewer\bin\Debug\policy.2.0.taglib-sharp.dll
+\\MGPCTFSW01\UserFolders$\t967031\Desktop\musicplayer-master\music player and lyrics viewer\lyrics_viewer\bin\Debug\taglib-sharp.dll
+\\MGPCTFSW01\UserFolders$\t967031\Desktop\musicplayer-master\music player and lyrics viewer\lyrics_viewer\bin\Debug\policy.2.0.taglib-sharp.config

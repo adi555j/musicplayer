@@ -42,24 +42,48 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="lyrics_viewer.exe" size="14752">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="lyrics_viewer.exe" size="411136">
       <assemblyIdentity name="lyrics_viewer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>g9SpNvSQSEf6dCyfEBOxaeUjeNihtojZ5G84YKXgEo8=</dsig:DigestValue>
+        <dsig:DigestValue>Bd0br7qLmT90sZXnfdeB0b5wBDxaEpm2l2bTrrddM90=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="lyrics_viewer.exe.config" size="189">
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="policy.2.0.taglib-sharp.dll" size="3072">
+      <assemblyIdentity name="policy.2.0.taglib-sharp" version="0.0.0.0" publicKeyToken="DB62EBA44689B5B0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>5NE7a3v2CdQ0sQx6u+RFtq+ua500tujNccDuvhxrr34=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="taglib-sharp.dll" size="443392">
+      <assemblyIdentity name="taglib-sharp" version="2.1.0.0" publicKeyToken="DB62EBA44689B5B0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>iuCVedAthcrHWIW2RUfcEpQOm58u5B0cRh9ZkIRQcYg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="lyrics_viewer.exe.config" size="979">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+      <dsig:DigestValue>iJnWctVvBGdN7Ft0nOjVEkLI4T1WQSXDn2DE2T1Vh4k=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
