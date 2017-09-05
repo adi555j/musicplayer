@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="lyrics_viewer.exe" size="411136">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="lyrics_viewer.exe" size="415672">
       <assemblyIdentity name="lyrics_viewer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>o/kG1bZaRdFjU2bOR5FWp6XxOMqjmFUNgyO0je1ERe4=</dsig:DigestValue>
+        <dsig:DigestValue>s8Rgx8Vnfr5Spr39ybnHG/Io14DWjjAYJ7EXnLXo6Ck=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
