@@ -1,7 +1,8 @@
 # musicplayer
 very simple music player and lyrics viewer
 - > update 06 sep 2017
-    Bit of cleaning done.
+    Bit of cleaning done
+    Lyrics search option added
 - > update 05 sep 2017
     UI Elements added
 	Exceptions Handled
