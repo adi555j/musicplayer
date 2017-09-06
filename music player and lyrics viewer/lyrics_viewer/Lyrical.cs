@@ -83,12 +83,8 @@ namespace lyrics_viewer
             }
             wplayer.URL = dir + mp3[listBox1.SelectedIndex];
             textBox1.Text = wplayer.URL;
-            wplayer.controls.play();           
-            string af = dir + mp3[listBox1.SelectedIndex];
-            var file = TagLib.File.Create(@af);
-            string ly = Lyrics.Lyric(file.Tag.AlbumArtists.First(), file.Tag.Title);
-            richTextBox1.Clear();
-            richTextBox1.AppendText(ly);
+            wplayer.controls.play();
+            LoadLyrics(listBox1.SelectedIndex);
 
 
         }
@@ -109,11 +105,7 @@ namespace lyrics_viewer
             wplayer.URL = dir + mp3[listBox1.SelectedIndex];
             textBox1.Text = wplayer.URL;
             wplayer.controls.play();
-            string af = dir + mp3[listBox1.SelectedIndex];
-            var file = TagLib.File.Create(@af);
-            string ly = Lyrics.Lyric(file.Tag.AlbumArtists.First(), file.Tag.Title);
-            richTextBox1.Clear();
-            richTextBox1.AppendText(ly);
+            LoadLyrics(listBox1.SelectedIndex); ;
 
         }
 
@@ -147,27 +139,15 @@ namespace lyrics_viewer
             wplayer.controls.play();
             //pause_play_click_status = true;
 
-            string af = dir + mp3[listBox1.SelectedIndex];
-            var file = TagLib.File.Create(@af);
-            string ly = Lyrics.Lyric(file.Tag.AlbumArtists.First(), file.Tag.Title);
-            richTextBox1.Clear();
-            richTextBox1.AppendText(ly);
+            LoadLyrics(listBox1.SelectedIndex);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             if (listBox1.Items.Count == 0)
                 return;
-            string af=dir + mp3[listBox1.SelectedIndex];
-            var file = TagLib.File.Create(@af);
-            string ly="";
-            if (file.Tag.AlbumArtists.Count()!=0 && file.Tag.Title!=null)
-            {
-                 ly = Lyrics.Lyric(file.Tag.AlbumArtists.First(), file.Tag.Title);
-            }
-            richTextBox1.Clear();
-            richTextBox1.AppendText(ly);
 
+            LoadLyrics(listBox1.SelectedIndex);
             if (pauseflag == false)
             {
                 wplayer.URL = dir + mp3[listBox1.SelectedIndex];
@@ -212,6 +192,34 @@ namespace lyrics_viewer
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void LoadLyrics(int index)
+        {
+            string af=dir + mp3[listBox1.SelectedIndex];
+            var file = TagLib.File.Create(@af);
+            string ly="";
+            int flag = 0;
+            if (file.Tag.AlbumArtists.Count()!=0 && file.Tag.Title!=null)
+            {
+                 ly = Lyrics.Lyric(file.Tag.AlbumArtists.First(), file.Tag.Title);
+            }
+            if (ly == "Lyrics not found" && flag==0)
+            {
+                using (InputBox InputBox = new InputBox())
+                {
+                    if (InputBox.ShowDialog() == DialogResult.OK)
+                    {
+                        ly = Lyrics.Lyric(InputBox.Artist,InputBox.Title);
+                    }
+                }
+                flag = 1;
+            }
+            richTextBox1.Clear();
+            richTextBox1.AppendText(ly);
+        }
+        private void Lyrical_Load(object sender, EventArgs e)
         {
 
         }
